@@ -1,0 +1,6 @@
+name: Corey Vorsanger's Data Scince Journey
+discription: My work in the data sciemce field
+url: "https://cvorsanger.github.io"
+markdown: kramdown
+highlighter: rouge
+theme: jekyll-theme-architect
