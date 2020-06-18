@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\assets",
+    "\\assets\\webfonts",
+    "\\images"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\assets\\webfonts\\fa-brands-400.woff2",
   "PreviewInSolutionExplorer": false
 }
