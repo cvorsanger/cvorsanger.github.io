@@ -23,7 +23,7 @@
 							<div class="inner">
 								<h1>Corey Vorsanger</h1>
 								<p>Hi my name is Corey Vorsanger. I am a Data Scientist passionate about finding hidden insights in big data.<br />
-								Have fun exploring my website. Thanks for visinting!</p>
+								Have fun exploring my website. Thanks for visiting!</p>
 							</div>
 						</div>
 						<nav>
@@ -32,7 +32,7 @@
 								<li><a href="#resume">Resume</a></li>
 								<li><a href="#projects">Projects</a></li>
 								<li><a href="#contact">Connect</a></li>
-								<li><a href="#elements">Elements</a></li>
+								<!-- <li><a href="#elements">Elements</a></li> -->
 							</ul>
 						</nav>
 					</header>
@@ -55,27 +55,48 @@
 									<h3 class="major">Education</h3>
 									<dl>
 										<dt>University of Denver, <i>2020-present</i></dt>
-											<dd>Master of Science, Data Science</dd>
+											<dd><b>Master of Science, Data Science</b></dd>
+											<dd>Current Classes
+												<ul>
+													<li>Machine Learning</li>
+													<li>Parellel and Distributed Computing</li>
+												</ul>
+											</dd>
+											<dd>Notable Past Classes
+												<ul>
+													<li>Data Science Tools</li>
+													<li>Data Mining</li>
+													<li>Advanced Statistics</li>
+													<li>Algorithms</li>
+													<li>Software Development</li>
+												</ul>
+											</dd>
 										<dt>Arizona State University, <i>2015-2017</i></dt>
-											<dd>Master of Science, Aerospace Engineering</dd>
+											<dd><b>Master of Science, Aerospace Engineering</b></dd>
+											<br>
 										<dt>Arizona State University, <i>2011-2015</i></dt>
-											<dd>Bachelor of Science, Aerospace Engineering</dd>
+											<dd><b>Bachelor of Science, Aerospace Engineering</b></dd>
 									</dl>
 								</section>
 								<div></div>
 								<section>
 									<h3 class="major">Technical Skills</h3>
 									<ul>
-										<li>Programming: Python, Matlab, Excel VBA</li>
-										<li>Machine Learning: Sckit-learn, Xgboost, Tensorflow</li>
-										<li>Visualization: Seaborn, Matplotlib, GeoPandas</li>
+										<li>Languages: Python, R, JS, Matlab, LaTeX, Fortran</li>
+										<li>Data Science: Numpy, Pandas, Statsmodels, </li>
+										<li>Machine Learning: Sckit-learn, Scipy, Xgboost, Tensorflow</li>
+										<li>Visualization: Bokeh, Plotly, Folium, Seaborn, Matplotlib</li>
+										<li>Misc.: Linux, Git, SQL, MongoDB, MS Office</li>
 									</ul>
 								</section>
 								<div></div>
 								<section>
 									<h3 class="major">Professional Experience</h3>
 									<dl>
-										<dt>Falcon Field Airport, <i>2018-present</i></dt>
+										<dt>University of Denver, <i>2021-present</i></dt>
+											<dd>Math Tutor</dd>
+											<br>
+										<dt>Falcon Field Airport, <i>2018-2021</i></dt>
 									</dl>
 								</section>
 
@@ -85,14 +106,68 @@
 						<!-- Projects -->
 							<article id="projects">
 								<h2 class="major">Projects</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>Check back regularly for new and updated projects.</p>
+								<table>
+									<tr>
+										<td>
+										<a href="https://github.com/cvorsanger/COMP-4447-Final-Project">
+											<b>Sentiement Analysis of Olympic tweets</b>
+											<span class = "image left"><img src="images/tokyo.jpg" alt="" /></span>
+											<br><br>
+											<p>Analyzed tweets regarding the sports of track, gymnastics, cycling, volleyball, diving, basketball, surfing, 
+												and skateboarding during the 2020 Olympic Games. Using Python, the NLTK library, and the VADER lexicon the 
+												sentiment of tweets were scored.
+											</p>
+										</a>
+										</td>
+									</tr>	
+									<tr>
+										<td>								
+											<a href="https://github.com/cvorsanger/NB-Movies">
+												<b>Movie Genre Predictions with Naive Bayes</b>
+												<span class="image left"><img src="images/movie.jpg" alt="" /></span>
+												<br><br>
+												<p>Using R, predicted movies from their viewer created plots. Transformed the plots into a bag-of-words and 
+													created a multiclass Naive Bayes model. Was able to achieve an accuracy of 85% with this simple model.
+												</p>
+											</a>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a href="https://github.com/cvorsanger/COMP-3006-Project">
+												<b>The Affect of COVID-19 on Airports</b>
+												<span class = "image left"><img src="images/FAA.png" alt="" /></span>
+												<br><br>
+												<p>Analyzed the effect of COVID-19 on the United States airport system. Created a CLI tool to help analyze 
+													airports individualy, by state, or by region. Was also able to make conclusions based on the type of 
+													airport.
+												</p>
+											</a>
+										</td>
+									</tr>
+								</table>
+								<p>Check back for new projects</p>
 							</article>
+
+							<!-- Olympics Project -->
+								<article id="olympics">
+
+								</article>
+
+							<!-- Movies NB Project -->
+								<article id="movies">
+
+								</article>
+
+							<!-- Airport Project -->
+								<article id="airports">
+
+								</article>
 
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Connect</h2>
-								<!--<form method="post" action="mailto:cvorsanger@gmail.com">
+								<!-- <form method="post" action="mailto:cvorsanger@gmail.com">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
@@ -111,10 +186,9 @@
 										<li><input type="submit" value="Send Message" class="primary" /></li>
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
-								</!-form>-->
-								<p>Under Construction.</p>
+								</form> -->
 								<ul class="icons">
-									<li><a href="mailto:cvorsanger@gmail.com" class="icon fa-envelope"><span class="label">EMail</span></a></li>
+									<li><a href="mailto:cvorsanger@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
 									<li><a href="https://www.linkedin.com/in/corey-vorsanger/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 									<li><a href="https://github.com/cvorsanger" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 									<li><a href="https://www.kaggle.com/coreyvorsanger" class="icon brands fa-kaggle"><span class="label">Kaggle</span></a></li>
